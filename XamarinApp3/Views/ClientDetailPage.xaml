@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinApp3.Views.ClientDetailPage">
+    <StackLayout>
+        <Entry x:Name="nameLabel"/>
+        <Entry x:Name="emailLabel"/>
+        <Entry x:Name="phoneLabel"/>
+        <Entry x:Name="addressLabel"/>
+        <Button x:Name="updateButton"
+                Clicked="updateButton_Clicked"
+                Text="Update"/>
+        <Button x:Name="deleteButton"
+                Clicked="deleteButton_Clicked"
+                Text="Delete"/>
+    </StackLayout>
+    
+</ContentPage>
